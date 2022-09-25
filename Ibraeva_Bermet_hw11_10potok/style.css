@@ -1,0 +1,26 @@
+.first{
+    background-color:pink
+}
+.second{
+    background-color: plum;
+}
+.third{
+    background-color: salmon;
+}
+
+.first .one{
+    background-color:rgb(69, 181, 233);
+    font-size: 30px;
+    color: rgb(223, 215, 102);
+    
+}
+.second .two{
+    background-color:skyblue;
+    font-size: 35px;
+    color:white
+}
+.third .three{
+    background-color: teal;
+    font-size: 40px;
+    color: violet;
+}

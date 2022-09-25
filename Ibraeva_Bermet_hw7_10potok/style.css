@@ -1,0 +1,52 @@
+header{
+    background: pink;
+    height: 150px;
+   
+}
+
+.menu{
+    display: inline;
+    list-style: none;
+    position: absolute;
+    top:10px;
+    right:100px;  
+    font-family: cursive;
+    color:rgb(245, 27, 154);
+}
+.menu li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.spa{
+    width: 160px;
+
+}
+
+
+.two img{
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+.three{
+    color:rgb(245, 27, 154);
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    height: 100px;
+    margin-top: 20px;
+    background-color: rgb(45, 42, 48);
+    font-style: italic;
+    color:salmon
+}
+
+.four{
+    padding-top: 20px;
+    list-style: none;
+}
