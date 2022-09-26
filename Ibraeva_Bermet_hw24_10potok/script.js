@@ -14,6 +14,7 @@
 
 //24 urok
 
+
 let person = {
     name: "Bermet",
     family_name: "Ibraeva",
