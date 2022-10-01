@@ -15,4 +15,9 @@
 
 let ttl = document.querySelectorAll(".body_product > .ttl");
 
-console.log(ttl);
+console.log(ttl[0].innerText);
+console.log(ttl[1].innerText);
+console.log(ttl[2].innerText);
+console.log(ttl[3].innerText);
+console.log(ttl[4].innerText);
+ 
