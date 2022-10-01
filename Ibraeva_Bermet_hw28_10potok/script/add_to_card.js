@@ -6,6 +6,6 @@ let price = document.getElementsByClassName("price");
 
 console.log(price[0].innerText);
 
-// let image = document.getElementsByClassName("image").getElementsByTagName("img")[0].src; 
+let image = document.getElementsByClassName("image"); 
 
-// alert(image);
+console.log(image[0].src);
