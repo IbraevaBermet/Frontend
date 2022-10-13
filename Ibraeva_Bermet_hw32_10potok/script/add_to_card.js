@@ -171,12 +171,58 @@
 
 //Задание №3
 
-function calcBox() {
-    let a = Number(prompt("Введите первое число:" , ));
-    let b = Number(prompt("Введите второе число:" , ));
-    let result = 2 * (a + b);
+// function calcBox() {
+//     let a = Number(prompt("Введите первое число:" , ));
+//     let b = Number(prompt("Введите второе число:" , ));
+//     let result = 2 * (a + b);
 
-    alert(result);
+//     alert(result);
+// }
+
+// calcBox();
+
+
+// 32 urok
+//Методы и свойства
+
+// let text = "Привет! как у тебя дела?";
+// console.log(text.indexOf("тебя"));
+
+// let text = "Привет! как у тебя дела?";
+// console.log(text.slice(7,11));
+
+// let text = "Привет! как у тебя дела?";
+// console.log(text.replace("тебя","себя"));
+
+//Методы и свойства чисел
+
+// let number = 130;
+// number.toString();
+
+// let x = 9.656;
+// console.log(x.toExponential(2));
+
+// let x = 9.656;
+
+// x = Number(x);
+// console.log(x.toFixed(1));
+
+// let x = 9;
+// let a = "10";
+// let result;
+// result = x + +a;
+
+// console.log(result);
+
+
+// Задание №1
+
+function plusNumber() {
+    let a = (prompt("Введите первое число:" , ));
+    let b = (prompt("Введите второе число:" , ));
+    let c = +a + +b;
+    alert(c.toFixed());
+
 }
 
-calcBox();
+plusNumber();

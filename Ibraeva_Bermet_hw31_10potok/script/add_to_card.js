@@ -171,12 +171,13 @@
 
 //Задание №3
 
-function calcBox() {
-    let a = Number(prompt("Введите первое число:" , ));
-    let b = Number(prompt("Введите второе число:" , ));
-    let result = 2 * (a + b);
+// function calcBox() {
+//     let a = Number(prompt("Введите первое число:" , ));
+//     let b = Number(prompt("Введите второе число:" , ));
+//     let result = 2 * (a + b);
 
-    alert(result);
-}
+//     alert(result);
+// }
 
-calcBox();
+// calcBox();
+

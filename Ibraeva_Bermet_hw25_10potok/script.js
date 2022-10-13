@@ -52,9 +52,9 @@
 
 //Задание 3
 
-let number1 = Number(prompt("Введите первую цифру: ", ));
-let number2 = Number(prompt("Введите вторую цифру: ", ));
-let summa = number1 * number2;
+// let number1 = Number(prompt("Введите первую цифру: ", ));
+// let number2 = Number(prompt("Введите вторую цифру: ", ));
+// let summa = number1 * number2;
 
-alert(summa);
+// alert(summa);
 
