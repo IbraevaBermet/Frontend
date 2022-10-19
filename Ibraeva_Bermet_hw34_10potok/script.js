@@ -121,8 +121,8 @@
 
 // Массивы и псевдомассивы
 
-const arr2 = [1,2,3,4,5];
-console.log(arr2);
+// const arr2 = [1,2,3,4,5];
+// console.log(arr2);
 
 
 //console.log(arr2.pop());
@@ -166,35 +166,63 @@ console.log(arr2);
 
 //Псевдомассивы
 
-let object = {0:1, 1:2, 2:3 ,length:3};
+// let object = {0:1, 1:2, 2:3 ,length:3};
 
-console.log(object);
-let array = [];
+// console.log(object);
+// let array = [];
 
-//Преобразуем псевдомассив в массив
-for (let i = 0; i< object.length; i++) {
-    array.push(object[i]);
-}
+// //Преобразуем псевдомассив в массив
+// for (let i = 0; i< object.length; i++) {
+//     array.push(object[i]);
+// }
 
-console.log( array );
+// console.log( array );
 
 
 //Задание №1 
 
-let a= {0:'first',1:'second',2:'third',length:3};
-let b = [];
+// let a= {0:'first',1:'second',2:'third',length:3};
+// let b = [];
 
-for (let i = 0; i < a.length; i++){
-    b.push(a[i]);
+// for (let i = 0; i < a.length; i++){
+//     b.push(a[i]);
 
-}
+// }
 
-console.log(b);
+// console.log(b);
 
 
 //Задание №2
 
-let c = ["first","second", "third"];
+// let c = ["first","second", "third"];
 
-let d = [];
+// let d = [];
+
+
+// for (let i = 0; i < c.length; i++){
+//     // c.split('""');
+//     // d.push(c[i]);
+//     alert(c.split('')); 
+
+
+// }
+
+// console.log(c);
+
+
+
+function sliceIntoChunks(arr, chunkSize) {
+    const res = [];
+    for (let i = 0; i < arr.length; i += chunkSize) {
+        const chunk = arr.slice(i, i + chunkSize);
+        res.push(chunk);
+    }
+    return res;
+}
+
+
+const arr = ["first","second", "third"];
+console.log(sliceIntoChunks(arr,1));
+
+
 

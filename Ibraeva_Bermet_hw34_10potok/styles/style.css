@@ -359,7 +359,8 @@ span.seryi_krug {
 
 .kartochka h1 {
     font-size: 15px;
-    color:#383752
+    color:#383752;
+    width: 170px;
   
 }
 
@@ -405,7 +406,7 @@ span.seryi_krug {
 }
 
 .total1 {
-    margin-left: 146px;
+    margin-left: 177px;
     font-weight:
     bolder;
     font-size: 20px;
@@ -415,7 +416,7 @@ span.seryi_krug {
 
 .checkout button{
     width: 210px;
-    margin: 20px 20px 10px 20px;
+    margin: 20px 20px 20px 40px;
     height: 50px;
     padding: 0;
     border-radius:25px;
