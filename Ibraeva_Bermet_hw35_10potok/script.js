@@ -1,0 +1,340 @@
+"use strict";
+//использоваие строго режима для обработки данных
+
+// 23 urok
+
+// let age = 29;
+// let year = 1993;
+// let name = "Bermet"  
+  
+// console.log(age);
+// console.log(year);
+// console.log(name);
+
+
+//24 urok
+
+
+// let person = {
+//     name: "Bermet",
+//     family_name: "Ibraeva",
+//     age: 29,
+//     year_of_born: 1993,
+//     location: "Kyrgyzstan"
+
+// };
+
+// console.log("Name: " + person.name +","+ " Family name: " + person.family_name + "," +
+//  " Age: " + person.age  + ","+ " Year of born: " + person.year_of_born +","+ 
+//  " Location:" + person.location);
+
+// let school = ["maths","physics","chemistry","geography"];
+
+// console.log(school[0],school[1],school[2],school[3]);
+
+//25 urok
+
+//Задание 1
+
+// let name = prompt("Введите ваше имя: ", );
+// let surname = prompt("Введите ваше фамилие: ", );
+
+// console.log(name,surname);
+
+//Задание 2
+
+// let number1 = Number(prompt("Введите первую цифру: ", ));
+// let number2 = Number(prompt("Введите вторую цифру: ", ));
+// let summa = number1 + number2;
+
+// alert(summa);
+
+
+//Задание 3
+
+// let number1 = Number(prompt("Введите первую цифру: ", ));
+// let number2 = Number(prompt("Введите вторую цифру: ", ));
+// let summa = number1 * number2;
+
+// alert(summa);
+
+
+
+//26 urok
+
+//Задание 1
+
+// let number1 = Number(prompt("Введите первую цифру: ", ));
+// let number2 = Number(prompt("Введите вторую цифру: ", ));
+// let operator = prompt("Что сделать: +, -, *, /, **, % ");
+// let result1 = number1 + number2;
+// let result2 = number1 - number2;
+// let result3 = number1 * number2;
+// let result4 = number1 / number2;
+// let result5 = number1 ** number2;
+// let result6 = number1 % number2;
+
+// if (operator == "+") {
+//     alert("Результат: " + number1 + "+" + number2 + "=" + result1);
+// }
+// else if (operator == "-") {
+//     alert("Результат: " + number1 + "-" + number2 + "=" + result2);
+// }
+// else if (operator == "*") {
+//     alert("Результат: " + number1 + "*" + number2 + "=" + result3);
+// }
+// else if (operator == "/") {
+//     alert("Результат: " + number1 + "/" + number2 + "=" + result4);
+// }
+// else if (operator == "**") {
+//     alert("Результат: " + number1 + "**" + number2 + "=" + result5);
+// }
+// else if (operator == "%") {
+//     alert("Результат: " + number1 + "%" + number2 + "=" + result6);
+// }
+// else {
+//     alert("Вы ввели неправильные данные!")
+// }
+
+//Задание 2
+
+// let login = "Bermet";
+// let password = 1993;
+
+// let login1 = prompt("Введите ваш логин: ");
+// let password2;
+
+// if (login1 == login) {
+//     password2 = prompt("Введите ваш пароль: ");
+// } else {
+//     alert("Вы ввели неправильный логин!")
+//     }  if (password2 == password) {
+//         alert("Welcome!");
+//     }  else {
+//         alert("Вы ввели неправильный пароль!");
+// }
+
+
+
+
+//34 urok
+
+// Массивы и псевдомассивы
+
+// const arr2 = [1,2,3,4,5];
+// console.log(arr2);
+
+
+//console.log(arr2.pop());
+
+//console.log(arr2);
+
+//arr2.push(10);
+
+//console.log(arr2);
+
+//arr2.unshift(15);
+//arr2.unshift(20);
+
+//console.log(arr2);
+
+// delete arr2[0];
+// delete arr2[1];
+
+//console.log(arr2.length);
+//console.log(arr2);
+
+//arr2[50]  = 20;
+
+//console.log(arr2);
+
+// for(let i = 0; i<arr2.length; i++){
+//     console.log(arr2[i]);
+// }
+
+// for (let value of arr2) {
+//     console.log(value);
+// }
+
+// arr2.forEach(function(item, index, arr2) {
+//     //console.log(index);
+
+//     console.log("Индекс:" +index+" Значение:"+item+" из массива = "+arr2);
+
+// })
+
+
+//Псевдомассивы
+
+// let object = {0:1, 1:2, 2:3 ,length:3};
+
+// console.log(object);
+// let array = [];
+
+// //Преобразуем псевдомассив в массив
+// for (let i = 0; i< object.length; i++) {
+//     array.push(object[i]);
+// }
+
+// console.log( array );
+
+
+//Задание №1 
+
+// let a= {0:'first',1:'second',2:'third',length:3};
+// let b = [];
+
+// for (let i = 0; i < a.length; i++){
+//     b.push(a[i]);
+
+// }
+
+// console.log(b);
+
+
+//Задание №2
+
+// let c = ["first","second", "third"];
+
+// let d = [];
+
+
+// for (let i = 0; i < c.length; i++){
+//     // c.split('""');
+//     // d.push(c[i]);
+//     alert(c.split('')); 
+
+
+// }
+
+// console.log(c);
+
+
+
+// function sliceIntoChunks(arr, chunkSize) {
+//     const res = [];
+//     for (let i = 0; i < arr.length; i += chunkSize) {
+//         const chunk = arr.slice(i, i + chunkSize);
+//         res.push(chunk);
+//     }
+//     return res;
+// }
+
+
+// const arr = ["first","second", "third"];
+// console.log(sliceIntoChunks(arr,1));
+
+//35 urok
+
+//Передача по ссылке или по значению
+
+//Копирование объекта
+//Копирование массива
+
+//Новые стандарты
+//Оператор разворота Spread
+
+let a = 10,
+    b = a;
+
+b = b + a;
+
+// console.log(b);
+// console.log(a);
+
+const arr1 = {
+    a:1,
+    b:2
+}
+
+// console.log(arr1);
+const newArr = arr1;
+// console.log(newArr);
+
+newArr.a = 10;
+
+// console.log(newArr);
+// console.log(arr1);
+
+function copy_arr(myObj) {
+
+    const newObj  = {};
+
+    let key;
+    for(key in myObj){
+        newObj[key] = myObj[key];
+
+    }
+    return newObj;
+}
+
+const oldObj = {
+    name:"ismar",
+    surname:"Suleimanov",
+    hobby: {
+        1:"swimming",
+        2:"running"
+    }
+};
+
+// console.log(oldObj);
+
+// console.log(copy_arr(oldObj));
+
+const newObj = copy_arr(oldObj);
+
+newObj.name = "Alex";
+
+// console.log(newObj);
+// console.log(oldObj);
+
+newObj.hobby[1] = "Чтение";
+
+// console.log(newObj);
+// console.log(oldObj);
+
+const newAssing = Object.assign({},oldObj);
+
+newAssing.name = "Panda";
+
+
+console.log(newAssing);
+
+
+const arr = ["яблоки","груши","виноград"];
+
+const arr2 = arr.slice();
+
+
+arr2[2] = "вишня";
+//console.log(arr);
+//console.log(arr2);
+
+const array_tehnika = ["телефон","планшеты","компьютеры"],
+        melodii = ["рок","хип-хоп","джаз"],
+        combo = [...array_tehnika, ...melodii, "плавание", "бег"];
+
+        //console.log(combo);
+
+
+const old_per =  ["телефон","планшеты","компьютеры"];
+
+const new_per = [...old_per];
+
+new_per[1] = "футболка";
+console.log(old_per);
+console.log(new_per);
+
+
+
+const arr3 = {
+    a: 1,
+    b: 2
+};
+
+const arr4 = {...arr3};
+
+arr4.b = 10;
+
+console.log(arr3);
+console.log(arr4);
