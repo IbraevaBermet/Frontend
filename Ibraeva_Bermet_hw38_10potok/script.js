@@ -86,13 +86,13 @@
 
 //let input = prompt("Введите любое число", );
 
-function takeInput (){
-    let input = prompt("Введите любое число",);
-    console.log(typeof(input));
+//function takeInput (){
+    //let input = prompt("Введите любое число",);
+    //console.log(typeof(input));
 
 
-}
+//}
 
 
-takeInput();
+//takeInput();
 
